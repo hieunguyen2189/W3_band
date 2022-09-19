@@ -1,0 +1,80 @@
+@media (max-width:739px){
+    .nav-item{
+        display: block;
+    }
+    .header-search{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    .mobile-menu-btn{
+        display: inline-block;
+    }
+    .nav-item:first-child{
+        display: inline-block;
+    }
+    .sub-nav{
+        position: initial;
+        background-color: #333;
+    }
+    .sub-item-link{
+        background-color: #333;
+        color: #fff;
+        padding: 5px 41px;
+    }
+    .member-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .member-img{
+        width: 50%;
+    }
+    .tour-city{
+        display: block;
+      
+    }
+    .tour-city-items{
+        width: 100%;
+        margin: 16px 0px;
+    }
+    .tour-middle{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contact-contain{
+        display: block;
+    }
+    .input-mail
+    ,.input-name
+    ,.input-name
+    {
+        margin-top: 8px;
+        width: 100%;
+    }
+    .btn-m{
+        width: calc(100% - 16px);
+    }
+    .city-text{
+        margin-right: 0;
+    }
+  
+}
+@media (max-width:1023px) {
+    .city-btn-buy{
+        padding: 15px 16px;
+    }
+    .input-name, .input-mail, .input-mess{
+        padding: 15px;
+    }
+    .social-list a{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+    .info-text{
+        line-height: 1.5;
+    }
+}
